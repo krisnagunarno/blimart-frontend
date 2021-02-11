@@ -1,2 +1,2 @@
-@Library('my-shared-library@develop') _
-vue()
+@Library('ultimate-library@main') _
+frontend()
