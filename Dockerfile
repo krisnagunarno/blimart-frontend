@@ -2,6 +2,7 @@ FROM node:12.20.1-alpine3.10 as build-stage
 WORKDIR /app
 COPY package.json ./
 RUN npm install
+RUN npm install @elastic/apm-rum --save
 COPY . .
 RUN npm run build
 
