@@ -34,7 +34,7 @@ Vue.use(VueMq, {
 Vue.config.productionTip = false;
 
 // Axios.defaults.baseURL = 'https://192.168.100.3:8080/bliblimart/api';
-Axios.defaults.baseURL = 'http://ec2-34-232-6-130.compute-1.amazonaws.com:8083/bliblimart/api';
+Axios.defaults.baseURL = 'http://ec2-34-232-6-130.compute-1.amazonaws.com:8082/bliblimart/api';
 // Axios.defaults.baseURL = 'http://localhost';
 // if (process.env.NODE_ENV === 'development') {
 //   Axios.defaults.baseURL = 'http://localhost';
