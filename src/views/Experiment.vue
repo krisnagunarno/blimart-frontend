@@ -41,7 +41,7 @@ export default {
   created() {
     const script = document.createElement('script');
 
-    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBBD4oBdDnYvfgbFDp8uN0NyTpC81HvCFc&callback=initMap&libraries=&v=weekly&libraries=geometry';
+    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAyoVGwS7yqbW6JYUOVSWtHlnBcO69C3ZE&callback=initMap&libraries=&v=weekly&libraries=geometry';
     script.defer = true;
 
     window.initMap = () => {
